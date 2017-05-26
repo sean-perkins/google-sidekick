@@ -1,0 +1,13 @@
+<div>
+    <div class="right">
+        <google-nav-button [class.active]="isGmail"
+            (click)="gmail()"
+            asset="assets/gmail-icon.png"></google-nav-button>
+        <google-nav-button [class.active]="isCalendar"
+            (click)="calendar()"
+            asset="assets/calendar-icon.png"></google-nav-button>
+        <google-nav-button [class.active]="isDrive"
+            (click)="drive()"
+            asset="assets/drive-icon.png"></google-nav-button>
+    </div>
+</div>
