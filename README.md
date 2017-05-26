@@ -1,33 +1,12 @@
-# Angular Electron Seed
+# Google Sidekick
 
-This seed combines the technologies of Angular (4+) with [Electron](https://electron.atom.io/) to create a robust development stack for creating Desktop applications. Leveraging the stock AngularCLI build process, we are able to maintain webpack and stock tooling with minimal tweaking.
+Angular(4) Electron concept project built on the [angular-electron-seed](https://github.com/sean-perkins/angular-electron-seed). Uses a consistent browser session object within the underlying chromium wrapper to allow users to conveniently switch between popular Google apps. 
 
-![Example](https://i.gyazo.com/67c230a5f92509f703eaf03a38590613.gif)
+App based on: [Shift](https://tryshift.com/)
 
-## Getting Started
-|Command|Description|
-|--|--|
-|`npm i`| Install the required dependencies|
-|`npm run start`|Builds the project and opens your app in Electron|
-|`npm run start.watch`|Builds the project and watches for file changes with Angular CLI|
-|`npm run watch`|Runs the custom tooling and syncs the live-sync with the AngularCLI watch task|
-|`npm run bundle.mac`|Bundles your MacOS app into the bundles directory|
-|`npm run bundle.windows`|Bundles your Windows app into the bundles directory|
-|`npm run bundle.linux`|Bundles your Linux app into the bundles directory|
+![Image](http://i.imgur.com/RCExblQ.png)
 
-### Features
-- IPC Protocol - Send messages between Electron and Angular (plays beep when clicking Getting Started)
-- Exposed Electron API via `NgxElectronService`
-- Bundle your app for Mac, Windows or Linux
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+![Image](https://i.gyazo.com/7b2e27ff6405bf9bdfdcaf4cb8db0a80.gif)
 
 # Contributors 
 
