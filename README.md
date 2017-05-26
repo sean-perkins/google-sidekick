@@ -4,9 +4,13 @@ Angular(4) Electron concept project built on the [angular-electron-seed](https:/
 
 App based on: [Shift](https://tryshift.com/)
 
+<p align="center">
+
 ![Image](http://i.imgur.com/RCExblQ.png)
 
 ![Image](https://i.gyazo.com/7b2e27ff6405bf9bdfdcaf4cb8db0a80.gif)
+
+</p>
 
 # Contributors 
 
